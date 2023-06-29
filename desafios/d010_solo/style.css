@@ -1,0 +1,102 @@
+@charset "UTF-8";
+
+body {
+    margin: 0px;
+    background-color:#84E1AD;
+}
+header {
+    font: normal bold 1em 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    width: auto;
+    height: 170px;
+    padding: 10px 10px 0px 10px;
+    background-image: linear-gradient(180deg, #3BD17F, #1A5C38);    
+    color: #ffff;               
+}
+header > p {
+    margin: 0%;
+    text-align: center;
+}
+header > h1 {
+    text-align: center;
+}
+nav > a {
+    margin: 1px;
+    font: normal bold 1em 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 0px 10px 0px 10px;
+    color: rgb(255, 255, 255);
+    text-decoration: none;           
+}
+a:hover {
+    text-decoration: underline;
+}
+main {
+    width: auto;
+    height: auto;
+    padding: 1px 10px 10px 10px;
+    margin:0% 10% 0% 10%;
+    background-color: white;
+    border-radius: 0px 0px 10px 10px;
+}
+.noticias {
+    width: auto;
+    height: 300px;
+}
+@font-face {
+    font-family: 'idroid';
+    src: url('fontes/idroid.otf');
+}
+h1 {
+    font-family: 'idroid';
+    color: #1A5C38;
+}
+main > p {
+    text-align: justify;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.video {    
+    background-color: #1A5C38;
+    border: solid #1A5C38 1px;
+    max-width: 100%;
+}
+div > iframe {    
+    max-width: 100%;
+    margin: 10px auto;
+    display: block;
+}
+.mais {
+    background-color: white;
+    margin: 0%;
+}
+.mais > h2 {
+    margin: 0%;
+    background-color: #1A5C38;
+    color: white;
+    padding: 5px;
+    border-radius:  5px 5px 0px 0px ;
+}
+.mais > p {
+    text-align: justify;
+    margin: 0%;
+    padding: 5px;
+    background-color: #84E1AD;
+}
+.mais > dl {
+    margin: 0px;
+    background-color: #84E1AD;
+    display: inline-block;
+    width: 49%;
+}
+img { 
+    display: block;
+    margin: auto;
+    max-width: 100%; height: auto;
+    }   
+footer {
+    background-color: #1A5C38;
+    border: solid 0px #1A5C38;
+    padding: 1px;
+    margin: 0%;
+    font: normal bold 1em 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    text-align: center;
+}
