@@ -103,29 +103,24 @@ main h2 {
     font-size: 1.3em;background-image: linear-gradient(to right, var(--cor1), transparent);
     padding: 5px;
 }
-
 main img {
     width: 100%;
 }
-
 main img.pequena {
     max-width: 300px;
     display: block;
     margin: auto;
 }
-
 main p {
     margin: 15px 0px 15px 0px;
     text-align: justify;
     text-indent: 30px;
     line-height: 2em;
 }
-
 main strong {
     color: var(--cor5);
     font-weight: bold;
 }
-
 main a {
     text-decoration: none;
     font-weight: bold;
@@ -133,13 +128,11 @@ main a {
     background-color: var(--cor1);
     padding: 1px;
 }
-
 main a:hover {
     text-decoration: underline;
     color: var(--cor4);
     padding: 5px;
 }
-
 div.video {
     background-color: #1a5c37;
     margin: 0px -20px 30px -20px;
@@ -147,7 +140,6 @@ div.video {
     padding-bottom: 55%;
     position: relative;
 }
-
 div.video > iframe {
     position: absolute;
     top: 5%;
@@ -155,14 +147,12 @@ div.video > iframe {
     width: 90%;
     height: 90%;
 }
-
 aside {
     background-color: var(--cor1);
     padding: 10px;
     border-radius: 10px;
     box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.288);
 }
-
 aside h3 {
     background-color: var(--cor4);
     color: white;
@@ -170,7 +160,6 @@ aside h3 {
     margin: -10px -10px 0px -10px;
     border-radius: 10px 10px 0px 0px;
 }
-
 aside > ul {
     list-style-type: '\2714\00a0\00a0';
     list-style-position: inside;
